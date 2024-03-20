@@ -17,10 +17,7 @@ h1{
     animation-name: example;
     animation-duration: 30s;
 }
- a {
-    text-decoration: none;
-}
-i {
+ i {
  color : black;
 }
 @keyframes example {
@@ -30,6 +27,50 @@ i {
     60%  {background-color: green;}
     80%  {background-color: cyan;}
     100% {background-color: #0b7357;}
+} 
+a {
+    text-decoration: none;
+    color: #333; 
+    transition: color 0.3s ease;}
+
+a:hover {
+    color: #ff6347; 
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;    
+    color: #333;    
+    margin-bottom: 10px; }
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px; 
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+}
+
+th, td {
+    border: 1px solid #333;     padding: 8px;     text-align: left; 
+}
+
+hr {
+    border: 1px solid #333;     margin: 20px 0; }
+
+.material-icons {
+    vertical-align: middle;     margin-right: 5px; 
+}
+
+.attachment-link {
+    color: #333;     transition: color 0.3s ease; 
+}
+
+.attachment-link:hover {
+    color: #ff6347; }
+
      
 
