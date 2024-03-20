@@ -40,11 +40,13 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
     font-family: 'Arial', sans-serif;    
     color: #333;    
     margin-bottom: 10px; }
 
 ul, ol {
+    padding-left: 20px;
     margin-left: 20px;
 }
 
@@ -60,8 +62,9 @@ th, td {
     border: 1px solid #333;     padding: 8px;     text-align: left; 
 }
 
-hr {
-    border: 1px solid #333;     margin: 20px 0; }
+hr { 
+    border: 1px solid #333;
+    margin: 20px 0; }
 
 .material-icons {
     vertical-align: middle;     margin-right: 5px; 
@@ -74,16 +77,23 @@ hr {
 .attachment-link:hover {
     color: #ff6347; }
 body {
+    margin: 0;
+    padding: 0; 
     font-family: 'Helvetica', sans-serif; 
     line-height: 1.6; 
 }
 frameset {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
     border: none; 
 }
 frame {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
     border: none;
 }
 p {
+    margin-top: 0;
     margin-bottom: 15px; 
 p a {
     color: #007bff; 
@@ -113,6 +123,7 @@ nav a:hover {
 }
 
 .footer {
+    
     background-color: #333;
     color: #fff; 
     text-align: center;
